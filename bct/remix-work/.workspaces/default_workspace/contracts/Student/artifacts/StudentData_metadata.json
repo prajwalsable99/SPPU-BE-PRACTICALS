@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_rollNo",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "_fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lName",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "_marks",
+						"type": "int256"
+					}
+				],
+				"name": "addNewRecords",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_bonus",
+						"type": "int256"
+					}
+				],
+				"name": "bonusMarks",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stdCount",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"name": "stdRecords",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "rollNo",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lName",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "marks",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Student/student.sol": "StudentData"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Student/student.sol": {
+			"keccak256": "0xe9d6226fd0d2d56201c3700a464485d9bee71d4a7e561afdf6e17772162a338b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e810c95364f1566fc308f9ef85c2c0a05b23dff1e38ed9506647ebd0459e1421",
+				"dweb:/ipfs/QmcLbUuMt5SrBKNG4wyZovBVkz1z8L2D5fFJmmB5PuZPvT"
+			]
+		}
+	},
+	"version": 1
+}
